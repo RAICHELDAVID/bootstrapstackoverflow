@@ -1,0 +1,43 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+	    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+        }
+        .headerContainer {
+            border-top: 3px solid #da680b;
+	    border-bottom:1px solid lightgrey;
+            display: flex;
+            align-items: center; /* Vertically center elements */
+        }
+  	.topNavigation a{
+		font-size:13px;
+	}
+	.topButtons button{
+		font-size:13px;
+	}
+   
+        .input-group-prepend {
+            position: relative;
+        }
+        .input-group-prepend i {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+            padding: 10px 15px;
+            pointer-events: none;
+        }
+        .form-control {
+            padding-left: 40px; /* Adjust as needed */
+	    border:none;
+        }
+.middleContainer row{
+display:flex;
+flex-direction:column;
+
+}
+
+    
