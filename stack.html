@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>User Jon Skeet-Stack Overflow</title>
+		<link rel="stylesheet" href="./style/bootstrapnew.css">
+		<link rel="stylesheet" href="./style/css2.css">
+		<link rel="stylesheet" href="./style/style.css">
+	</head>
+	<body class="container-fluid p-0">
+		<div class="d-flex headerSection">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light container-fluid d-flex headerNav mb-3">
+				<button class="navbar-toggler border-0 d-sm-none d-xs-block ms-3 " type="button" data-toggle="collapse"
+					data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+					aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+				<img src="./assets/logostack.jpg" class="img-fluid d-none d-md-block" alt="logostack">
+				<img src="./assets/stack.jpg" class="img-fluid d-sm-none d-block" alt="stack">
+				</a>
+				<div class="collapse navbar-collapse" id="navBarToggle">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item topNavigation">
+							<a class="nav-link bar-link d-none d-md-block" href="#">About</a>
+						</li>
+						<li class="nav-item topNavigation">
+							<a class="nav-link bar-link" href="#">Products</a>
+						</li>
+						<li class="nav-itemtopNavigation">
+							<a class="nav-link bar-link d-none d-md-block" href="#">For Teams</a>
+						</li>
+					</ul>
+				</div>
+				<div class="d-lg-none d-block me-1">Product
+				</div>
+				<form class="form-inline my-2 my-lg-0 col-md-6 col-sm-4 d-none d-sm-block col-xl-7">
+					<div class="d-flex justify-content-start border rounded">
+						<div>
+							<span class="material-symbols-outlined mt-1">search</span>	
+						</div>
+						<div>
+							<input type="search" placeholder="user:22656" class="p-1 inputBar">
+						</div>
+					</div>
+				</form>
+				<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-search d-xs-block d-sm-none ms-2" viewBox="0 0 16 16">
+					<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+				</svg>
+				<form class="form-inline ms-3">
+					<!-- class="ml-md-auto"Use ml-md-auto flex-grow-1  to align right starting from medium breakpoints -->
+					<button type="button" class="btn buttonLogin btn-light border border-primary">Log in</button>
+					<button type="button" class="btn buttonSignUp btn-primary ml-2">Sign up</button>
+				</form>
+			</nav>
+		</div>
+		
+		<div class="body-section d-flex justify-content-start  container-fluid">
+			<div class="mt-5 pt-3 side-bar sidebar d-none d-sm-block">
+				<div class="p-2 d-flex mt-2 gap-1">
+					<svg aria-hidden="true" class="svg-icon iconHome" width="18" height="18" viewBox="0 0 18 18">
+						<path d="M15 10v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5H0l9-9 9 9h-3Zm-8 1v6h4v-6H7Z"></path>
+					</svg>
+					<span class="pl-2">Home</span>
+				</div>
+				<div class="p-2 d-flex gap-1">
+					<svg aria-hidden="true" class="svg-icon iconQuestion" width="18" height="18" viewBox="0 0 18 18">
+						<path d="m4 15-3 3V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z"></path>
+					</svg>
+					<span class="pl-2">Questions</span>
+				</div>
+				<div class="p-2 d-flex gap-1">
+					<svg aria-hidden="true" class="svg-icon iconTags" width="13" height="13" viewBox="0 0 18 18">
+						<path d="M9.24 1a3 3 0 0 0-2.12.88l-5.7 5.7a2 2 0 0 0-.38 2.31 3 3 0 0 1 .67-1.01l6-6A3 3 0 0 1 9.83 2H14a3 3 0 0 1 .79.1A2 2 0 0 0 13 1H9.24Z" opacity=".4"></path>
+						<path d="M9.83 3a2 2 0 0 0-1.42.59l-6 6a2 2 0 0 0 0 2.82L6.6 16.6a2 2 0 0 0 2.82 0l6-6A2 2 0 0 0 16 9.17V5a2 2 0 0 0-2-2H9.83ZM12 9a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"></path>
+					</svg>
+					<span class="pl-2">Tags</span>
+				</div>
+				<div class="p-2 d-flex mt-2 gap-1 pt-3 userDiv">
+					<svg aria-hidden="true" class="svg-icon iconPeople" width="18" height="18" viewBox="0 0 18 18">
+						<path d="M17 14c0 .44-.45 1-1 1H9a1 1 0 0 1-1-1H2c-.54 0-1-.56-1-1 0-2.63 3-4 3-4s.23-.4 0-1c-.84-.62-1.06-.59-1-3 .06-2.42 1.37-3 2.5-3s2.44.58 2.5 3c.06 2.41-.16 2.38-1 3-.23.59 0 1 0 1s1.55.71 2.42 2.09c.78-.72 1.58-1.1 1.58-1.1s.23-.4 0-1c-.84-.61-1.06-.58-1-3 .06-2.41 1.37-3 2.5-3s2.44.59 2.5 3c.05 2.42-.16 2.39-1 3-.23.6 0 1 0 1s3 1.38 3 4Z"></path>
+					</svg>
+					<span class="pl-2">Users</span>
+				</div>
+				<div class="p-2 d-flex gap-1">
+					<svg aria-hidden="true" class="svg-icon iconBriefcase" width="18" height="18" viewBox="0 0 18 18">
+						<path d="M5 4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v1h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h1V4Zm7 0H6v1h6V4Z"></path>
+					</svg>
+					<span class="pl-2">Companies</span>
+				</div>
+				<div class="d-flex pt-3">
+					<div class="p-2 mt-2"><span class="collectives">COLLECTIVES</span></div>
+					<svg aria-hidden="true" class="svg-icon iconPlusSm mt-3" width="14" height="14" viewBox="0 0 14 14">
+						<path d="M8 2H6v4H2v2h4v4h2V8h4V6H8V2Z"></path>
+					</svg>
+				</div>
+				<div class="d-flex pt-1">
+					<svg aria-hidden="true" class="mt-auto fc-orange-400 svg-icon iconStarYellow pr-1" width="18" height="18" viewBox="0 0 18 18">
+						<path d="M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 1		.74 a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 						0 1 .74 0Z"></path>
+					</svg>
+					<span>Explore Collection</span>
+				</div>
+				<div class="d-flex pt-3">
+					<div class="p-2 mt-2"><span class="labs">LABS</span></div>
+					<svg aria-hidden="true" class="svg-icon iconInfoSm mt-3" width="14" height="14" viewBox="0 0 14 14">
+						<path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z"></path>
+					</svg>
+				</div>
+				<div class="p-2 d-flex gap-1">
+					<svg aria-hidden="true" class="fc-black-400 w16 svg-icon iconSpeechBubble" width="18" height="18" viewBox="0 0 18 18">
+						<path d="m4 15-3 3V4c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4Z"></path>
+					</svg>
+					<span class="pl-2">Discussions</span>
+				</div>
+				<div class="d-flex pt-3">
+					<div class="p-2 mt-2"><span class="teams">TEAMS</span></div>
+				</div>
+			</div>
+			<div class="d-flex flex-column col-lg-10 mt-5">
+				<div class="d-flex justify-content-between">
+					<div class="d-lg-flex justify-content-start">
+						<img src="./assets/profile.jpeg" class="img-fluid" alt="profile" width="128" height="128">
+						
+						<div class="name fs-1 mt-lg-4">
+						Jon Skeet
+						</div>
+						<div class="d-flex flex-wrap">
+							<div class="d-flex">
+								<svg aria-hidden="true" class="svg-icon iconCake" width="18" height="18" viewBox="0 0 18 18"><path d="M9 4.5a1.5 1.5 0 0 0 1.28-2.27L9 0 7.72 2.23c-.14.22-.22.48-.22.77 0 .83.68 1.5 1.5 1.5Zm3.45 7.5-.8-.81-.81.8c-.98.98-2.69.98-3.67 0l-.8-.8-.82.8c-.49.49-1.14.76-1.83.76-.55 0-1.3-.17-1.72-.46V15c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2v-2.7c-.42.28-1.17.45-1.72.45-.69 0-1.34-.27-1.83-.76Zm1.3-5H10V5H8v2H4.25C3 7 2 8 2 9.25v.9c0 .81.91 1.47 1.72 1.47.39 0 .77-.14 1.03-.42l1.61-1.6 1.6 1.6a1.5 1.5 0 0 0 2.08 0l1.6-1.6 1.6 1.6c.28.28.64.43 1.03.43.81 0 1.73-.67 1.73-1.48v-.9C16 8.01 15 7 13.75 7Z"></path></svg>
+								<p style="margin:0 5px" class="me-2 ms-0">Member for 15 years, 4 months</p>
+							</div>
+						</div>
+					</div>
+					<div>Profile</div>
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
