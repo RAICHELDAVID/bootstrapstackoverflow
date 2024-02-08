@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+
+}
+
+.headerNav {
+    border-top: 3px solid #da680b;
+    border-bottom: 1px solid lightgrey;
+
+
+}
+
+.headerSection {
+    padding-bottom: 20px;
+}
+
+.topNavigation a {
+    font-size: 13px;
+}
+
+.topButtons button {
+    font-size: 13px;
+}
+
+
+.form-control {
+    padding-left: 40px;
+    /* Adjust as needed */
+    border: none;
+}
+
+.inputBar {
+    border: none;
+}
+
+.login {
+    padding: 8px 10.4px;
+    background-color: #E1ECF4;
+    color: blue !important;
+
+}
+
+.login:hover {
+    background-color: hsl(206, 93%, 83.5%);
+
+}
+
+.signup {
+    padding: 8px 10.4px;
+    border: none;
+    background-color: #0A95FF;
+    color: white !important;
+}
+
+
+.collectives {
+    padding-right: 12px;
+    font-weight: 630;
+}
+
+.labs {
+    padding-right: 60px;
+    font-weight: 630;
+}
+
+.sidebar svg {
+    fill: #636B74;
+
+}
+
+.sidebar .iconStarYellow {
+    fill: #e7700D;
+}
+
+.teams {
+    font-weight: 630;
+}
+
+.bodyCenter svg {
+    fill: #636B74;
+}
+
+.bodyCenter .jonSkeet {
+    font-size: 24.5px;
+}
+
+.bodyCenter p {
+    color: #636B74;
+}
+
+.profileButton button {
+    padding-right: 2px;
+}
+
+.profile {
+    border: none;
+    background-color: #da680b;
+    border-radius: 25px;
+    padding: 6px 12px;
+    color: white;
+
+}
+
+.activity {
+    border: none;
+    background-color: white;
+
+    padding: 6px 12px;
+    color: #636B74;
+
+}
+
+.statsCard p {
+    font-size: medium;
+    color: black;
+}
+
+.reputation {
+    width: 160%;
+}
+
+.answers {
+    width: 111%;
+}
+
+.reached {
+    width: 130%;
+}
+
+.stats,
+.collectives,.about,.badgeHeading,.topTags,.metaPost {
+    font-weight: 400;
+}
+
+.collectiveDiv .googleCloud {
+    padding-left: 12px;
+    color: #0C0D0E;
+}
+
+.collectiveDiv .member {
+    padding-left: 12px;
+    color: #0C0D0E;
+}
+
+.community {
+    font-size: large;
+    font-weight: 400;
+}
+.c-d1 p {
+    font-weight: 400;
+    
+    color: black;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.badge{
+width:100%;
+}
+.goldenBadgeP,.silverBadgeP,.bronzeBadgeP{
+ font-size:12px;
+    font-weight: 100;
+}
+.badgeIcon{
+font-size:1.61538462rem; 
+font-weight:600; 
+color:#232629;
+}
+.dots{
+color:#d6a100;
+font-size: 12px;
+padding-top: 6px;
+}
+.badgeGold{
+    margin-right: 7px;
+}
+.goldBadgeButton,.silverBadgeButton,.bronzeBadgeButton{
+    font-weight: 100;
+    font-size: 13px;
+}
+.goldBadgeDate,.silverBadgeDate,.bronzeBadgeDate{
+    font-weight: 100;
+    font-size: 13px;
+}
+.dotSilver{
+color:#D8D8D8;
+font-size: 12px;
+padding-top: 6px;
+}
+.dotBronze{
+color:#CD7F32;
+font-size: 12px;
+padding-top: 6px;
+}
+.tagName{
+    padding: 4px;
+    border-radius: 3px;
+    background-color: hsl(205, 46%, 92%);
+    color: hsl(205, 47%, 42%);
+}
+.tagP .tagRate{
+font-size: 14px;
+color:black;
+}
+
+.tagValue{
+font-size: 11px;
+}
+.dotTag{
+color:#d6a100;
+font-size: 10px;
+padding-top: 6px;
+
+}
+.topAnswerFirst{
+font-size:11px;
+}
+.metaNumber{
+    background-color: white;
+    padding: 5px;
+    color: black;
+    margin: 0 12px 0 5px;
+    max-height: 30px;
+    color: hsl(210, 8%, 25%);
+    border: 1px solid hsl(210, 8%, 80%);
+border-radius:27%;
+}
+.topAnswerValue{
+background-color: hsl(140, 40%, 55%);
+    padding: 5px;
+    color: white;
+    margin: 0 12px 0 5px;
+    max-height: 30px;
+}
+
+
+@media screen and (max-width: 376px) {
+.text-center1{
+width:123%;
+}
+
+}
